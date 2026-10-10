@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+  <title id="title">BBuidl Lab mascot reference board</title>
+  <desc id="desc">Five hand-drawn mascot directions derived from a floppy-eared dog sketch: Scout, Builder, Spark, Guardian and Guide.</desc>
+  <defs>
+    <style>
+      .ink{stroke:#183E35;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}
+      .thin{stroke:#183E35;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+      .label{font-family:Manrope,Arial,sans-serif;fill:#183E35}
+      .small{font-size:17px;letter-spacing:2px}
+      .name{font-size:27px;font-weight:700;letter-spacing:1px}
+    </style>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="2" seed="7" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .035"/></feComponentTransfer>
+      <feBlend in="SourceGraphic" in2="mono" mode="multiply"/>
+    </filter>
+    <g id="dog-head">
+      <path class="ink" fill="#F4F1E9" d="M-85,-5 C-83,-64 -50,-97 0,-101 C50,-97 83,-64 85,-5 C92,55 55,90 0,91 C-55,90 -92,55 -85,-5Z"/>
+      <path class="ink" fill="#D98CA6" d="M-78,-27 C-136,-76 -154,-50 -145,-3 C-139,31 -111,52 -79,41 C-57,33 -54,0 -78,-27Z"/>
+      <path class="ink" fill="#D98CA6" d="M78,-27 C136,-76 154,-50 145,-3 C139,31 111,52 79,41 C57,33 54,0 78,-27Z"/>
+      <circle cx="-29" cy="-7" r="9" fill="#183E35"/><circle cx="29" cy="-7" r="9" fill="#183E35"/>
+      <path class="ink" fill="#183E35" d="M-17,15 Q0,2 17,15 Q13,38 0,39 Q-13,38 -17,15Z"/>
+      <path class="thin" fill="none" d="M0,38 Q-2,51 -16,53 M0,38 Q2,51 16,53"/>
+      <ellipse cx="-46" cy="24" rx="18" ry="10" fill="#E9A7B7" opacity=".85"/><ellipse cx="46" cy="24" rx="18" ry="10" fill="#E9A7B7" opacity=".85"/>
+    </g>
+    <g id="star"><path class="thin" fill="#D9EF87" d="M0,-26 L8,-8 L28,-5 L13,8 L17,28 L0,17 L-17,28 L-13,8 L-28,-5 L-8,-8Z"/></g>
+    <g id="question"><path class="ink" fill="none" d="M-18,-15 Q-16,-39 7,-39 Q29,-39 29,-19 Q29,-3 9,5 Q0,9 0,24"/><circle cx="0" cy="43" r="5" fill="#183E35"/></g>
+  </defs>
+
+  <rect width="1600" height="1120" fill="#F4F1E9"/>
+  <rect x="38" y="38" width="1524" height="1044" rx="32" fill="#D9EF87" opacity=".22"/>
+  <g filter="url(#paper)">
+    <text x="84" y="105" class="label" font-size="24" font-weight="700" letter-spacing="4">BBUIDL AI LAB / MASCOT DIRECTIONS</text>
+    <text x="84" y="155" class="label" font-size="52" font-weight="700">Five ways to stay curious.</text>
+    <text x="84" y="192" class="label small">REFERENCE BOARD · DERIVED FROM THE HAND-DRAWN FLOPPY-EARED DOG</text>
+
+    <!-- card 1 -->
+    <g transform="translate(72 250)"><rect width="272" height="690" rx="24" fill="#D9EF87" class="thin"/>
+      <text x="26" y="54" class="label small">01 / THE SCOUT</text><text x="26" y="88" class="label name">Mochi Scout</text>
+      <g transform="translate(136 265) rotate(-4)"><use href="#dog-head"/><path class="ink" fill="#183E35" d="M-52,-82 Q0,-129 52,-82 L43,-61 Q0,-89 -43,-61Z"/><path class="ink" fill="#D9EF87" d="M-40,-89 L-28,-147 L-5,-98Z M13,-99 L43,-146 L42,-80Z"/><path class="thin" fill="none" d="M-16,67 Q0,78 16,67"/></g>
+      <use href="#question" transform="translate(70 485) scale(.65)"/><use href="#star" transform="translate(210 445) scale(.65)"/>
+      <text x="26" y="570" class="label small">TRAIT</text><text x="26" y="600" class="label" font-size="19">curious · observant</text><text x="26" y="628" class="label" font-size="19">always asks “why?”</text>
+      <text x="26" y="675" class="label small">USE</text><text x="26" y="705" class="label" font-size="19">research · discovery</text>
+    </g>
+
+    <!-- card 2 -->
+    <g transform="translate(364 250)"><rect width="272" height="690" rx="24" fill="#F0C7D3" class="thin"/>
+      <text x="26" y="54" class="label small">02 / THE BUILDER</text><text x="26" y="88" class="label name">Mochi Buidler</text>
+      <g transform="translate(136 265) rotate(3)"><use href="#dog-head"/><path class="ink" fill="#183E35" d="M-82,-31 L-114,-93 L-66,-70 L-40,-114 L-20,-65Z"/><path class="ink" fill="#183E35" d="M82,-31 L114,-93 L66,-70 L40,-114 L20,-65Z"/><path class="thin" fill="none" d="M-49,63 Q0,90 49,63"/><path class="thin" fill="#D9EF87" d="M-35,-116 L-12,-143 L12,-116 L35,-143 L48,-106 L-48,-106Z"/></g>
+      <path class="ink" fill="#D9EF87" d="M72,489 h84 v47 h-84z M82,489 v-32 h17 v32 M111,489 v-43 h17 v43 M140,489 v-27 h17 v27"/>
+      <text x="26" y="570" class="label small">TRAIT</text><text x="26" y="600" class="label" font-size="19">steady · practical</text><text x="26" y="628" class="label" font-size="19">turns ideas into things</text>
+      <text x="26" y="675" class="label small">USE</text><text x="26" y="705" class="label" font-size="19">build logs · shipping</text>
+    </g>
+
+    <!-- card 3 -->
+    <g transform="translate(656 250)"><rect width="272" height="690" rx="24" fill="#F4D878" class="thin"/>
+      <text x="26" y="54" class="label small">03 / THE SPARK</text><text x="26" y="88" class="label name">Mochi Spark</text>
+      <g transform="translate(136 265) rotate(-2)"><use href="#dog-head"/><path class="ink" fill="#D9EF87" d="M-80,-28 L-108,-78 L-67,-75 L-55,-126 L-25,-86 L13,-127 L19,-78 L69,-95 L48,-45Z"/><path class="thin" fill="none" d="M-54,66 Q0,83 54,66"/><circle cx="-28" cy="-7" r="13" fill="#D9EF87"/><circle cx="29" cy="-7" r="13" fill="#D9EF87"/></g>
+      <use href="#star" transform="translate(73 468) scale(.8)"/><use href="#star" transform="translate(197 474) scale(.52)"/><path class="thin" fill="none" d="M107,454 q29,-28 58,0"/>
+      <text x="26" y="570" class="label small">TRAIT</text><text x="26" y="600" class="label" font-size="19">playful · electric</text><text x="26" y="628" class="label" font-size="19">makes the leap feel fun</text>
+      <text x="26" y="675" class="label small">USE</text><text x="26" y="705" class="label" font-size="19">launches · announcements</text>
+    </g>
+
+    <!-- card 4 -->
+    <g transform="translate(948 250)"><rect width="272" height="690" rx="24" fill="#D0E4DC" class="thin"/>
+      <text x="26" y="54" class="label small">04 / THE GUARDIAN</text><text x="26" y="88" class="label name">Mochi Guard</text>
+      <g transform="translate(136 265)"><use href="#dog-head"/><path class="ink" fill="#183E35" d="M-78,-28 L-92,-111 L-48,-78 L0,-127 L48,-78 L92,-111 L78,-28 L47,-57 L0,-39 L-47,-57Z"/><path class="thin" fill="none" d="M-58,56 Q0,89 58,56"/><path class="thin" fill="#D9EF87" d="M-48,91 Q0,111 48,91 L35,139 L0,128 L-35,139Z"/></g>
+      <path class="ink" fill="#D9EF87" d="M80,454 L136,440 L192,454 L192,512 Q136,545 80,512Z"/><path class="thin" fill="none" d="M106,480 h60 M136,461 v38"/>
+      <text x="26" y="570" class="label small">TRAIT</text><text x="26" y="600" class="label" font-size="19">calm · dependable</text><text x="26" y="628" class="label" font-size="19">keeps the work honest</text>
+      <text x="26" y="675" class="label small">USE</text><text x="26" y="705" class="label" font-size="19">principles · trust</text>
+    </g>
+
+    <!-- card 5 -->
+    <g transform="translate(1240 250)"><rect width="272" height="690" rx="24" fill="#F1D4A4" class="thin"/>
+      <text x="26" y="54" class="label small">05 / THE GUIDE</text><text x="26" y="88" class="label name">Mochi Guide</text>
+      <g transform="translate(136 265) rotate(2)"><use href="#dog-head"/><path class="ink" fill="#D98CA6" d="M-77,-24 L-101,-124 L-50,-86 L-5,-143 L32,-88 L96,-122 L76,-16 L44,-55 L0,-42 L-44,-55Z"/><path class="thin" fill="none" d="M-49,64 Q0,82 49,64"/><path class="thin" fill="#D9EF87" d="M-15,-125 Q0,-145 15,-125 L15,-105 L-15,-105Z"/></g>
+      <path class="ink" fill="none" d="M90,475 Q136,445 182,475"/><path class="ink" fill="none" d="M136,448 v62"/><circle cx="136" cy="446" r="9" fill="#D9EF87"/>
+      <text x="26" y="570" class="label small">TRAIT</text><text x="26" y="600" class="label" font-size="19">warm · articulate</text><text x="26" y="628" class="label" font-size="19">makes complexity human</text>
+      <text x="26" y="675" class="label small">USE</text><text x="26" y="705" class="label" font-size="19">education · community</text>
+    </g>
+
+    <path d="M84,1000 H1516" stroke="#183E35" stroke-width="3" opacity=".35"/>
+    <text x="84" y="1042" class="label small">SHARED DNA: FLOPPY EARS · QUESTION MARK · STAR · HAND-DRAWN ENERGY · MAGENTA / CITRON / FOREST</text>
+  </g>
+</svg>
